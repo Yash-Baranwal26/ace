@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8081;
 app.use(express.json());
 
 app.use(cors({
-    origin: ['https://acehaneiproject.in', 'http://localhost:3000'], // Replace with your actual frontend domain
+    origin: ['https://acehaneiproject.in', 'https://api.acehaneiproject.in'], // Replace with your actual frontend domain
     optionsSuccessStatus: 200,
     credentials: true // If you are using cookies, you need to set credentials to true
   }));
